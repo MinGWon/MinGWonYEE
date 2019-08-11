@@ -1,4 +1,5 @@
 import discord
+import os
 
 client = discord.Cilent();
 
@@ -12,5 +13,7 @@ async def on_message(message):
     if message.content.startwith("명령어");
         await message.channel.send("")
         
-  
-client.run("")
+
+        
+access_token = os.environ["BOT_TOKEN"]
+client.run("access_token")
