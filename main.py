@@ -4,7 +4,6 @@ import os
 client = discord.Cilent();
 
 @client.event
-    print(client.user.id)
     print("Ready")
     
     
